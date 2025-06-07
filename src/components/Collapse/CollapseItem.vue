@@ -28,8 +28,9 @@
 </template>
 <script setup lang="ts">
 import { inject, computed } from 'vue'
-import type { CollapseItemProps } from './types.d'
-import { collapseContextKey } from './types.d'
+import type { CollapseItemProps } from './types'
+import { collapseContextKey } from './types'
+import Icon from '../Icon/Icon.vue'
 defineOptions({
   name: 'NCollapseItem'
 })
